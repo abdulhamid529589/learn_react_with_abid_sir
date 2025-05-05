@@ -1,0 +1,13 @@
+.bgpic{
+    opacity: 0.5;
+    padding: 10px;
+}
+
+.text{
+    position:relative;
+    text-align: justify;
+    max-width: 50vw;
+    padding-left: 20px;
+    margin-top: -700px;
+
+}
