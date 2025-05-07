@@ -4,10 +4,14 @@
 }
 
 .text{
-    position:relative;
+    position: relative;
     text-align: justify;
     max-width: 50vw;
     padding-left: 20px;
     margin-top: -700px;
 
+}
+
+.container{
+    position:static;
 }
