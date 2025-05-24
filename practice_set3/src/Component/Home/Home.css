@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+}
+
+.bgimg{
+    display: flex;
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 5%;
+    overflow: hidden;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.btn{
+    flex-direction: row;
+    padding: 5px;
+    margin-left: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(166, 255, 0);
+    color: rgb(5, 3, 0);
+}
+
+.title{
+    margin-top: 60px;
+}
