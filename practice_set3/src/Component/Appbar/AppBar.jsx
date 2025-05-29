@@ -28,7 +28,7 @@ function DrawerAppBar(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center'}}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 1}}>
         MUI
       </Typography>
@@ -48,7 +48,7 @@ function DrawerAppBar(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: 'flex', position:'sticky'}}>
+    <Box sx={{ display: 'flex', position:'sticky', zIndex:'1'}}>
       <CssBaseline />
       <AppBar component="nav" style={{display:'flex', marginTop:'30px'}}>
         <Toolbar>

@@ -1,0 +1,12 @@
+.mainbody{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bodycontent1{
+    width: 40vw;
+    height: 10vh;
+    margin-left: 100px;
+}
+

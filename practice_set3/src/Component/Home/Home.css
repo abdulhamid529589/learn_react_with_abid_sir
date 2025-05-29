@@ -5,11 +5,8 @@
 .bgimg{
     display: flex;
     position: relative;
-    width: 50vw;
-    height: 50vh;
-    margin-left: 5%;
-    overflow: hidden;
-
+    width: 470px;
+    height: 367px;
 }
 
 .content{
@@ -38,4 +35,8 @@
 
 .title{
     margin-top: 60px;
+}
+
+.cnt1{
+    width: 49vw;
 }
