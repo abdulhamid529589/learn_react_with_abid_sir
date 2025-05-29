@@ -1,3 +1,5 @@
+import AmazingFeature from "./Component/AmazingFeature/AmazingFeature";
+import Amazing_Feature from "./Component/AmazingFeatureAdd/AmazingFeature";
 import DrawerAppBar from "./Component/Appbar/AppBar";
 import Home from "./Component/Home/Home";
 import MainBody from "./Component/MainBody/MainBody";
@@ -14,6 +16,8 @@ function App() {
         <OurFeature/>
         <WebFeatureAdd/>
         <MainBody/>
+        <AmazingFeature/>
+        <Amazing_Feature/>
     </div>
   );
 }
